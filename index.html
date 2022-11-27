@@ -1,205 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <title>Hero</title>
-  </head>
 
-  <body>
-    <!-- NAVBAR Start -->
-    <div class="navbar pl-4 pr-4 pt-2 pb-3 flex justify-between items-center">
-      <div class="left flex justify-center items-center mdx:order-2">
-        <div class="hamburger inline-block p-1 mx-1 mdx:hidden">
-          <div class="line bg-black w-6 h-0.5 my-1"></div>
-          <div class="line bg-black w-6 h-0.5 my-1"></div>
-          <div class="line bg-black w-6 h-0.5 my-1"></div>
-        </div>
-        <div class="search mx-1 mdx:hidden">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="w-6 stroke-1 cursor-pointer"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
-            />
-          </svg>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Hero</title>
+</head>
+
+<body>
+  <!-- NAVBAR Start -->
+  <div class="navbar pl-4 pr-4 pt-2 pb-3 flex justify-between items-center">
+    <div class="left flex justify-center items-center mdx:order-2">
+      <div class="hamburger inline-block p-1 mx-1 mdx:hidden">
+        <div class="line bg-black w-6 h-0.5 my-1"></div>
+        <div class="line bg-black w-6 h-0.5 my-1"></div>
+        <div class="line bg-black w-6 h-0.5 my-1"></div>
       </div>
-      <div class="middel flex items-center mx-1 mdx:order-1 px-2">
-        <div class="logo mx-1 xl:text-lg">
-          <img src="./images/logo/ms_logo.jpeg" class="w-6 h-6" alt="" />
-        </div>
-        <div class="microsoft mr-3 xl:text-lg">Microsoft</div>
-        <div
-          class="flex ml-3 space-x-3 text-sm mdxl:text-xs lg:text-base xl:text-lg"
-        >
-          <div class="logo mx-1 hover:underline hidden mdx:block">
-            Microsoft 365
-          </div>
-          <div class="microsoft hover:underline mx-1 hidden mdx:block">
-            Office
-          </div>
-          <div class="microsoft hover:underline mx-1 hidden mdx:block">
-            Windows
-          </div>
-          <div class="microsoft hover:underline mx-1 hidden mdx:block">
-            Surface
-          </div>
-          <div class="microsoft hover:underline mx-1 hidden mdx:block">
-            More
-          </div>
-          <div
-            class="microsoft hover:underline mx-1 hidden mdx:block mdxl:hidden"
-          >
-            ^
-          </div>
-          <div class="microsoft hover:underline mx-1 hidden mdxl:block">
-            Xbox
-          </div>
-          <div class="microsoft hover:underline mx-1 hidden mdxl:block">
-            Support
-          </div>
-        </div>
+      <div class="search mx-1 mdx:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 stroke-1 cursor-pointer">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+        </svg>
       </div>
-      <div
-        class="right flex items-center mx-1 text-sm mdxl:text-xs mdx:order-3 lg:text-base xl:text-lg"
-      >
-        <div class="hidden search mx-1 mdx:block">All Microsoft</div>
-        <div class="hidden search mx-1 mdx:block">^</div>
-        <div class="hidden search mx-1 mdx:block">Search</div>
-        <div class="search mx-1">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="w-4 h-4 cursor-pointer stroke-1"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
-            />
-          </svg>
+    </div>
+    <div class="middel flex items-center mx-1 mdx:order-1 px-2">
+      <div class="logo mx-1 xl:text-lg">
+        <img src="./images/logo/ms_logo.jpeg" class="w-6 h-6" alt="" />
+      </div>
+      <div class="microsoft mr-3 xl:text-lg">Microsoft</div>
+      <div class="flex ml-3 space-x-3 text-sm mdxl:text-xs lg:text-base xl:text-lg">
+        <div class="logo mx-1 hover:underline hidden mdx:block">
+          Microsoft 365
         </div>
-        <div class="hidden search mx-1 mdx:block">Sign-in</div>
-        <div class="search mx-1">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="w-8 cursor-pointer stroke-slate-400"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z"
-            />
-          </svg>
+        <div class="microsoft hover:underline mx-1 hidden mdx:block">
+          Office
+        </div>
+        <div class="microsoft hover:underline mx-1 hidden mdx:block">
+          Windows
+        </div>
+        <div class="microsoft hover:underline mx-1 hidden mdx:block">
+          Surface
+        </div>
+        <div class="microsoft hover:underline mx-1 hidden mdx:block">
+          More
+        </div>
+        <div class="microsoft hover:underline mx-1 hidden mdx:block mdxl:hidden">
+          ^
+        </div>
+        <div class="microsoft hover:underline mx-1 hidden mdxl:block">
+          Xbox
+        </div>
+        <div class="microsoft hover:underline mx-1 hidden mdxl:block">
+          Support
         </div>
       </div>
     </div>
-    <!-- NAVBAR Ends -->
-
-    <!-- SLIDER Start -->
-
-    <div class="slider flex flex-col-reverse lgx:bg-blue-200 lgx:flex-row">
-      <div
-        class="left z-10 bg-slate-100 shadow-lg pl-5 text-left md:flex-row mdx:w-[96%] mdx:mx-3 mdx:-my-10 mdx:pt-10 mdx:pb-7 lgx:shadow-transparent lgx:mx-auto lgx:my-auto lgx:items-center md:pl-14 lgx:bg-blue-200"
-      >
-        <div
-          class="text-sm font-medium mx-4 my-1 py-1 px-3 mt-2 bg-yellow-400 w-fit"
-        >
-          New
-        </div>
-        <div class="text-2xl font-medium mx-4 my-1">Surface Pro 9</div>
-        <p class="mx-4 my-2 text-sm">
-          Tablet versatility and laptop power — all in one ultra-portable device
-        </p>
-        <button
-          class="mx-4 my-2 bg-[#0067b8] text-white text-sm font-medium px-4 py-2"
-        >
-          Learn more
-        </button>
+    <div class="right flex items-center mx-1 text-sm mdxl:text-xs mdx:order-3 lg:text-base xl:text-lg">
+      <div class="hidden search mx-1 mdx:block">All Microsoft</div>
+      <div class="hidden search mx-1 mdx:block">^</div>
+      <div class="hidden search mx-1 mdx:block">Search</div>
+      <div class="search mx-1">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-4 h-4 cursor-pointer stroke-1">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+        </svg>
       </div>
-      <div class="right">
-        <img
-          src="./images/slider/office/Office_1083x600.avif"
-          class=""
-          alt="Loding..."
-        />
+      <div class="hidden search mx-1 mdx:block">Sign-in</div>
+      <div class="search mx-1">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-8 cursor-pointer stroke-slate-400">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
+        </svg>
       </div>
     </div>
+  </div>
+  <!-- NAVBAR Ends -->
 
-    <!-- SLIDER Ends -->
+  <!-- SLIDER Start -->
 
-    <!-- Promo Starts -->
-
+  <div class="slider flex flex-col-reverse lgx:bg-blue-200 lgx:flex-row">
     <div
-      class="promo mt-10 text-black text-sm font-medium underline w-full flex flex-wrap justify-center items-center"
-    >
-      <div class="microsoft365 w-fit mx-4 px-4 my-1 py-2">
-        <img
-          src="./images/logo/microsoft_black.png"
-          class="w-8 mx-auto"
-          alt="Loading..."
-        />
-        <p class="">Choose your Microsoft 365</p>
+      class="left z-10 bg-slate-100 shadow-lg pl-5 text-left md:flex-row mdx:w-[96%] mdx:mx-3 mdx:-my-10 mdx:pt-10 mdx:pb-7 lgx:shadow-transparent lgx:mx-auto lgx:my-auto lgx:items-center md:pl-14 lgx:bg-blue-200">
+      <div class="text-sm font-medium mx-4 my-1 py-1 px-3 mt-2 bg-yellow-400 w-fit">
+        New
       </div>
-      <div class="SurfaceDevices w-fit mx-4 px-4 my-1 py-2">
-        <img
-          src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/icon-LL-Tablet-Kickstand-Landscape-Mode-Fluent-80x80?wid=40&amp;hei=40"
-          class="w-8 mx-auto"
-          alt="Loading..."
-        />
-        <p class="">Explore Surface devices</p>
-      </div>
-      <div class="XBoxGames w-fit mx-4 px-4 my-1 py-2">
-        <img
-          src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/icon-LL-Xbox-Logo-80x80?wid=40&amp;hei=40"
-          class="w-8 mx-auto"
-          alt="Loading..."
-        />
-        <p class="">Buy Xbox games</p>
-      </div>
-      <div class="Windows11 w-fit mx-4 px-4 my-1 py-2">
-        <img
-          src="./images/logo/microsoft_black.png"
-          class="w-8 mx-auto"
-          alt="Loading..."
-        />
-        <p class="">Get Windows 11</p>
-      </div>
+      <div class="text-2xl font-medium mx-4 my-1">Surface Pro 9</div>
+      <p class="mx-4 my-2 text-sm">
+        Tablet versatility and laptop power — all in one ultra-portable device
+      </p>
+      <button class="mx-4 my-2 bg-[#0067b8] text-white text-sm font-medium px-4 py-2">
+        Learn more
+      </button>
     </div>
+    <div class="right">
+      <img src="./images/slider/office/Office_1083x600.avif" class="" alt="Loding..." />
+    </div>
+  </div>
 
-    <!-- Promo Ends -->
+  <!-- SLIDER Ends -->
 
-    <!-- Cards Starts -->
-    <div class="cards">
-      <div class="card1 mx-4 my-4">
+  <!-- Promo Starts -->
+
+  <div class="promo mt-10 text-black text-sm font-medium underline w-full flex flex-wrap justify-center items-center">
+    <div class="microsoft365 w-fit mx-4 px-4 my-1 py-2">
+      <img src="./images/logo/microsoft_black.png" class="w-8 mx-auto" alt="Loading..." />
+      <p class="">Choose your Microsoft 365</p>
+    </div>
+    <div class="SurfaceDevices w-fit mx-4 px-4 my-1 py-2">
+      <img
+        src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/icon-LL-Tablet-Kickstand-Landscape-Mode-Fluent-80x80?wid=40&amp;hei=40"
+        class="w-8 mx-auto" alt="Loading..." />
+      <p class="">Explore Surface devices</p>
+    </div>
+    <div class="XBoxGames w-fit mx-4 px-4 my-1 py-2">
+      <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/icon-LL-Xbox-Logo-80x80?wid=40&amp;hei=40"
+        class="w-8 mx-auto" alt="Loading..." />
+      <p class="">Buy Xbox games</p>
+    </div>
+    <div class="Windows11 w-fit mx-4 px-4 my-1 py-2">
+      <img src="./images/logo/microsoft_black.png" class="w-8 mx-auto" alt="Loading..." />
+      <p class="">Get Windows 11</p>
+    </div>
+  </div>
+
+  <!-- Promo Ends -->
+
+  <!-- Cards Starts -->
+  <div class="cards">
+    <div class="top-four-card xsm:flex xsm:justify-center  xsm:flex-wrap">
+      <div class="card1 my-4 xsm:w-[40%]">
         <img
           src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Surface-Laptop-5-Platinum-Alcantara-FY23HOL?wid=515&hei=293&fit=crop"
-          alt=""
-        />
-        <div class="description">
+          alt="" />
+        <div class="description mx-4">
           <div
-            class="left text-start mt-4 md:flex-row mdx:w-[96%] mdx:mx-3 mdx:-my-10 mdx:pt-10 mdx:pb-7 lgx:mx-auto lgx:my-auto lgx:items-center md:pl-14 lgx:bg-blue-200"
-          >
-            <div
-              class="text-sm font-medium my-1 py-1 px-3 mt-2 bg-red-800 text-white w-fit"
-            >
+            class="text-start mt-4 md:flex-row mdx:w-[96%] mdx:mx-10 mdx:-my-10 mdx:pt-10 mdx:pb-7 lgx:mx-auto lgx:my-auto lgx:items-center  lgx:bg-blue-200">
+            <div class="text-sm font-medium my-1 py-1 px-3 mt-2 bg-red-800 text-white w-fit">
               New
             </div>
             <div class="text-2xl font-normal my-1">Surface Pro 9</div>
@@ -214,15 +155,13 @@
           </div>
         </div>
       </div>
-      <div class="card2 mx-4 my-4">
+      <div class="card2 mx-4 my-4 xsm:w-[40%]">
         <img
           src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Microsoft-365-FY23HOL?wid=515&hei=293&fit=crop"
-          alt=""
-        />
+          alt="" />
         <div class="description">
           <div
-            class="left text-start mt-4 md:flex-row mdx:w-[96%] mdx:mx-3 mdx:-my-10 mdx:pt-10 mdx:pb-7 lgx:mx-auto lgx:my-auto lgx:items-center md:pl-14 lgx:bg-blue-200"
-          >
+            class="text-start mt-4 md:flex-row mdx:w-[96%] mdx:mx-3 mdx:-my-10 mdx:pt-10 mdx:pb-7 lgx:mx-auto lgx:my-auto lgx:items-center  lgx:bg-blue-200">
             <div class="text-2xl font-normal my-1">Microsoft 365</div>
             <p class="my-2 text-sm">
               Tablet versatility and laptop power — all in one ultra-portable
@@ -240,15 +179,13 @@
           </div>
         </div>
       </div>
-      <div class="card3 mx-4 my-4">
+      <div class="card3 mx-4 my-4 xsm:w-[40%]">
         <img
           src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-PC-SMB-OneNote?wid=515&hei=293&fit=crop"
-          alt=""
-        />
+          alt="" />
         <div class="description mt-10">
           <div
-            class="text-start mt-4 md:flex-row mdx:w-[96%] mdx:mx-3 mdx:-my-10 mdx:pt-10 mdx:pb-7 lgx:mx-auto lgx:my-auto lgx:items-center md:pl-14 lgx:bg-blue-200"
-          >
+            class="text-start mt-4 md:flex-row mdx:w-[96%] mdx:mx-3 mdx:-my-10 mdx:pt-10 mdx:pb-7 lgx:mx-auto lgx:my-auto lgx:items-center  lgx:bg-blue-200">
             <div class="text-2xl font-normal my-1">One Note</div>
             <p class="my-2 text-sm">
               Tablet versatility and laptop power — all in one ultra-portable
@@ -261,16 +198,16 @@
           </div>
         </div>
       </div>
-      <div class="card4 mx-4 my-4">
+      <div class="card4 mx-4 my-4 xsm:w-[40%]">
         <img
           src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-CP-Windows11-GlobalLaunch?wid=515&hei=293&fit=crop"
-          alt=""
-        />
+          alt="" />
         <div class="description">
           <div
-            class="left text-start mt-4 md:flex-row mdx:w-[96%] mdx:mx-3 mdx:-my-10 mdx:pt-10 mdx:pb-7 lgx:mx-auto lgx:my-auto lgx:items-center md:pl-14 lgx:bg-blue-200"
-          >
-            <div class="text-2xl font-normal my-1">Designed for life today - and tomorrow</div>
+            class="left text-start mt-4 md:flex-row mdx:w-[96%] mdx:mx-3 mdx:-my-10 mdx:pt-10 mdx:pb-7 lgx:mx-auto lgx:my-auto lgx:items-center  lgx:bg-blue-200">
+            <div class="text-2xl font-normal my-1">
+              Designed for life today - and tomorrow
+            </div>
             <p class="my-2 text-sm">
               Tablet versatility and laptop power — all in one ultra-portable
               device Tablet versatility and laptop power — all in one
@@ -282,42 +219,36 @@
           </div>
         </div>
       </div>
-      <div class="card5  my-4">
-        <img
-          src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-MSFT-hero-Edge:VP1-539x440"
-          alt=""
-        />
+    </div>
+    <div class="full-card-on-lg-devices">
+      <div class="card5 my-4 flex flex-col">
+        <img class="" src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-MSFT-hero-Edge:VP1-539x440" alt="" />
         <div class="description mt-10 mx-4">
           <div
-            class="left text-start mt-4 md:flex-row mdx:w-[96%] mdx:mx-3 mdx:-my-10 mdx:pt-10 mdx:pb-7 lgx:mx-auto lgx:my-auto lgx:items-center md:pl-14 lgx:bg-blue-200"
-          >
+            class="left text-start mt-4 md:flex-row mdx:w-[96%] mdx:mx-3 mdx:-my-10 mdx:pt-10 mdx:pb-7 lgx:mx-auto lgx:my-auto lgx:items-center  lgx:bg-blue-200">
             <div class="text-2xl font-normal my-1">Surface Pro 9</div>
             <p class="my-2 text-sm">
               Tablet versatility and laptop power — all in one ultra-portable
               device Tablet versatility and laptop power — all in one
               ultra-portable device
             </p>
-            <button
-              class="my-2 bg-black text-white text-sm font-medium px-4 py-2"
-            >
+            <button class="my-2 bg-black text-white text-sm font-medium px-4 py-2">
               Downlode now
             </button>
           </div>
         </div>
       </div>
+    </div>
+    <div class="bottom-four-card xsm:flex xsm:justify-center  xsm:flex-wrap">
       <div class="card6 mx-4 mt-16">
-        <div class="text-2xl font-medium my-1 ">For business</div>        
+        <div class="text-2xl font-medium my-1">For business</div>
         <img
           src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Surface-Family-2022-M2-1?wid=515&hei=293&fit=crop"
-          alt=""
-        />
+          alt="" />
         <div class="description">
           <div
-            class="left text-start mt-4 md:flex-row mdx:w-[96%] mdx:mx-3 mdx:-my-10 mdx:pt-10 mdx:pb-7 lgx:mx-auto lgx:my-auto lgx:items-center md:pl-14 lgx:bg-blue-200"
-          >
-            <div
-              class="text-sm font-medium my-1 py-1 px-3 mt-2 bg-red-800 text-white w-fit"
-            >
+            class="left text-start mt-4 md:flex-row mdx:w-[96%] mdx:mx-3 mdx:-my-10 mdx:pt-10 mdx:pb-7 lgx:mx-auto lgx:my-auto lgx:items-center md:pl-14 lgx:bg-blue-200">
+            <div class="text-sm font-medium my-1 py-1 px-3 mt-2 bg-red-800 text-white w-fit">
               New
             </div>
             <div class="text-2xl font-normal my-1">Surface Pro 9</div>
@@ -326,9 +257,7 @@
               device Tablet versatility and laptop power — all in one
               ultra-portable device
             </p>
-            <button
-              class="my-2 bg-[#0067b8] text-white text-sm font-medium px-4 py-2"
-            >
+            <button class="my-2 bg-[#0067b8] text-white text-sm font-medium px-4 py-2">
               Learn more
             </button>
           </div>
@@ -337,15 +266,11 @@
       <div class="card7 mx-4 my-4">
         <img
           src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Windows-11-Business?wid=515&hei=293&fit=crop"
-          alt=""
-        />
+          alt="" />
         <div class="description">
           <div
-            class="left text-start mt-4 md:flex-row mdx:w-[96%] mdx:mx-3 mdx:-my-10 mdx:pt-10 mdx:pb-7 lgx:mx-auto lgx:my-auto lgx:items-center md:pl-14 lgx:bg-blue-200"
-          >
-            <div
-              class="text-sm font-medium my-1 py-1 px-3 mt-2 bg-red-800 text-white w-fit"
-            >
+            class="left text-start mt-4 md:flex-row mdx:w-[96%] mdx:mx-3 mdx:-my-10 mdx:pt-10 mdx:pb-7 lgx:mx-auto lgx:my-auto lgx:items-center md:pl-14 lgx:bg-blue-200">
+            <div class="text-sm font-medium my-1 py-1 px-3 mt-2 bg-red-800 text-white w-fit">
               New
             </div>
             <div class="text-2xl font-normal my-1">Surface Pro 9</div>
@@ -354,9 +279,7 @@
               device Tablet versatility and laptop power — all in one
               ultra-portable device
             </p>
-            <button
-              class="my-2 bg-[#0067b8] text-white text-sm font-medium px-4 py-2"
-            >
+            <button class="my-2 bg-[#0067b8] text-white text-sm font-medium px-4 py-2">
               Learn more
             </button>
           </div>
@@ -365,15 +288,11 @@
       <div class="card8 mx-4 my-4">
         <img
           src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-M365-CP-Microsoft365-Commercial?wid=515&hei=293&fit=crop"
-          alt=""
-        />
+          alt="" />
         <div class="description">
           <div
-            class="left text-start mt-4 md:flex-row mdx:w-[96%] mdx:mx-3 mdx:-my-10 mdx:pt-10 mdx:pb-7 lgx:mx-auto lgx:my-auto lgx:items-center md:pl-14 lgx:bg-blue-200"
-          >
-            <div
-              class="text-sm font-medium my-1 py-1 px-3 mt-2 bg-red-800 text-white w-fit"
-            >
+            class="left text-start mt-4 md:flex-row mdx:w-[96%] mdx:mx-3 mdx:-my-10 mdx:pt-10 mdx:pb-7 lgx:mx-auto lgx:my-auto lgx:items-center md:pl-14 lgx:bg-blue-200">
+            <div class="text-sm font-medium my-1 py-1 px-3 mt-2 bg-red-800 text-white w-fit">
               New
             </div>
             <div class="text-2xl font-normal my-1">Surface Pro 9</div>
@@ -382,9 +301,7 @@
               device Tablet versatility and laptop power — all in one
               ultra-portable device
             </p>
-            <button
-              class="my-2 bg-[#0067b8] text-white text-sm font-medium px-4 py-2"
-            >
+            <button class="my-2 bg-[#0067b8] text-white text-sm font-medium px-4 py-2">
               Learn more
             </button>
           </div>
@@ -393,15 +310,11 @@
       <div class="card9 mx-4 my-4">
         <img
           src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-CP-Microsoft-Teams-Commercial?wid=515&hei=293&fit=crop"
-          alt=""
-        />
+          alt="" />
         <div class="description">
           <div
-            class="left text-start mt-4 md:flex-row mdx:w-[96%] mdx:mx-3 mdx:-my-10 mdx:pt-10 mdx:pb-7 lgx:mx-auto lgx:my-auto lgx:items-center md:pl-14 lgx:bg-blue-200"
-          >
-            <div
-              class="text-sm font-medium my-1 py-1 px-3 mt-2 bg-red-800 text-white w-fit"
-            >
+            class="left text-start mt-4 md:flex-row mdx:w-[96%] mdx:mx-3 mdx:-my-10 mdx:pt-10 mdx:pb-7 lgx:mx-auto lgx:my-auto lgx:items-center md:pl-14 lgx:bg-blue-200">
+            <div class="text-sm font-medium my-1 py-1 px-3 mt-2 bg-red-800 text-white w-fit">
               New
             </div>
             <div class="text-2xl font-normal my-1">Surface Pro 9</div>
@@ -410,16 +323,63 @@
               device Tablet versatility and laptop power — all in one
               ultra-portable device
             </p>
-            <button
-              class="my-2 bg-[#0067b8] text-white text-sm font-medium px-4 py-2"
-            >
+            <button class="my-2 bg-[#0067b8] text-white text-sm font-medium px-4 py-2">
               Learn more
             </button>
           </div>
         </div>
       </div>
     </div>
-    <!-- Cards Ends -->
-    
-  </body>
+  </div>
+  <!-- Cards Ends -->
+
+  <!-- follow links starts -->
+  <div class="follow-links flex gap-3">
+    <div class="facebook">
+      <img class="w-6" src="./images/svg/fb.svg" alt="" />
+    </div>
+    <div class="twitter">
+      <img class="w-6" src="./images/svg/twitter.svg" alt="" />
+    </div>
+    <div class="youtube">
+      <img class="w-6" src="./images/svg/yt.svg" alt="" />
+    </div>
+  </div>
+  <!-- follow links ends -->
+
+  <!-- back to top starts -->
+  <div class="back-to-top flex gap-3">
+    <div class="arrow-up-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+        <path fill-rule="evenodd"
+          d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm.53 5.47a.75.75 0 00-1.06 0l-3 3a.75.75 0 101.06 1.06l1.72-1.72v5.69a.75.75 0 001.5 0v-5.69l1.72 1.72a.75.75 0 101.06-1.06l-3-3z"
+          clip-rule="evenodd" />
+      </svg>
+    </div>
+    <button>Back to top</button>
+  </div>
+  <!-- back to top ends -->
+
+  <!-- footer starts -->
+  <footer>
+    <div class="footer-top">
+      <div class="whats-new"></div>
+      <div class="Microsoft-stor"></div>
+      <div class="Education"></div>
+      <div class="Business"></div>
+      <div class="Developer-and-it"></div>
+      <div class="company"></div>
+    </div>
+    <div class="footer-bottom">
+      <div class="contact-microsoft"></div>
+      <div class="privacy"></div>
+      <div class="terms-of-use"></div>
+      <div class="trademarks"></div>
+      <div class="about-our-ads"></div>
+      <div class="microsoft-2022"></div>
+    </div>
+  </footer>
+  <!-- footer ends -->
+</body>
+
 </html>
