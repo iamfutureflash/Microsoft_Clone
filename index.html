@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="./style.css" />
-  <title>Microsoft clone</title>
+  <title>Hero</title>
 </head>
 
-<body class="overflow-x-hidden">
+<body>
   <!-- NAVBAR Start -->
-  <div class="navbar pl-4 pr-4 pt-2 pb-3 flex justify-between items-center 100px:text-[.5rem]">
+  <div class="navbar pl-4 pr-4 pt-2 pb-3 flex justify-between items-center">
     <div class="left flex justify-center items-center mdx:order-2">
       <div class="hamburger inline-block p-1 mx-1 mdx:hidden">
         <div class="line bg-black w-6  h-0.5 my-1"></div>
@@ -83,7 +83,7 @@
 
   <!-- SLIDER Start -->
 
-  <div class="slider flex flex-col-reverse lgx:bg-blue-200 lgx:flex-row 100px:text-[.5rem]">
+  <div class="slider flex flex-col-reverse lgx:bg-blue-200 lgx:flex-row">
     <div
       class="left z-10 bg-slate-100 shadow-lg pl-5 text-left md:flex-row mdx:w-[96%] mdx:mx-3 mdx:-my-10 mdx:pt-10 mdx:pb-7 lgx:shadow-transparent lgx:mx-auto lgx:my-auto lgx:items-center md:pl-14 lgx:bg-blue-200">
       <div class="text-sm font-medium mx-4 my-1 py-1 px-3 mt-2 bg-yellow-400 w-fit">
@@ -106,7 +106,7 @@
 
   <!-- Promo Starts -->
 
-  <div class="promo mt-10 text-black text-sm font-medium underline w-full flex flex-wrap justify-center items-center  100px:text-[.4rem]">
+  <div class="promo mt-10 text-black text-sm font-medium underline w-full flex flex-wrap justify-center items-center">
     <div class="microsoft365 w-fit mx-4 px-4 my-1 py-2">
       <img src="./images/logo/microsoft_black.png" class="w-8 mx-auto" alt="Loading..." />
       <p class="">Choose your Microsoft 365</p>
@@ -220,16 +220,13 @@
         </div>
       </div>
     </div>
-    <div class="full-card-on-lg-devices  py-14 px-4 flex justify-center mx-4">
-      <div class="hidden" ></div>
-      <div class="card5">
-        <div class="image   w-full  mx-auto flex justify-center px-10 py-4">
-          <img class=" w-full xsm:h-[60vh] mdx:h-[40vh] object-cover object-center"
-            src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-MSFT-hero-Edge:VP1-539x440" alt="Loading.." />
-        </div>
-        <div class="description flex justify-center px-10 z-10 -mt-9 ">
+    <div class="full-card-on-lg-devices ">
+      <div class="card5 my-4 flex flex-col">
+        <img class=" h-[60%] object-cover mx-4"
+          src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-MSFT-hero-Edge:VP1-539x440" alt="" />
+        <div class="description mt-10 mx-4">
           <div
-            class="left text-start px-4 py-4 bg-blue-200  w-[90vw] ">
+            class="left text-start bg-white px-4 py-4 mx-auto w-[96%] md:flex-row   mdx:-mt-[8rem] mdx:shadow-md mdx:shadow-white  lgx:-mt-[21rem] lgx:w-[40%] lgx:mx-4 ">
             <div class="text-2xl font-normal my-1">Surface Pro 9</div>
             <p class="my-2 text-sm">
               Tablet versatility and laptop power — all in one ultra-portable
@@ -243,7 +240,7 @@
         </div>
       </div>
     </div>
-    <div class="text-2xl font-medium my-8 mx-4 xsm:text-center xsm:font-medium xsm:text-3xl">For business</div>
+    <div class="text-2xl font-medium my-4 mx-4 md:text-center md:mt-14">For business</div>
     <div class="bottom-four-card xsm:flex xsm:justify-center  xsm:flex-wrap">
       <div class="card1 mx-4 my-4 xsm:w-[40%] lgx:w-[20%]">
         <img
@@ -370,11 +367,10 @@
   <!-- back to top ends -->
 
   <!-- footer starts -->
-  <footer class="bg-gray-200 text-gray-600 pt-4">
+  <footer class=" text-gray-600 pt-4">
     <div class="footer-top flex flex-row flex-wrap lg:justify-evenly gap-4 space-y-4 mx-4 my-4">
 
-      <div class="whats-new w-full hidden">
-
+      <div class="whats-new hidden cursor-none">
       </div>
       <div class="whats-new w-full xsm:w-fit">
         <ol class="space-y-3">
@@ -460,15 +456,17 @@
         </ol>
       </div>
     </div>
-    <div class="footer-bottom flex py-4 mx-4 ">
-      <div class="left flex flex-row flex-wrap gap-3  text-sm ">
-        <div class="language hover:underline hover:text-black ">🌍 English (India)</div>
-        <div class="contact-microsoft hover:underline hover:text-black">Contact Microsoft</div>
-        <div class="privacy hover:underline hover:text-black">Privacy</div>
-        <div class="terms-of-use hover:underline hover:text-black">Terms of use</div>
-        <div class="trademarks hover:underline hover:text-black">Trademarks</div>
-        <div class="about-our-ads hover:underline hover:text-black">About our ads</div>
-        <div class="microsoft-2022 hover:underline hover:text-black">©️ Microsoft 2022</div>
+    <div class="footer-bottom flex flex-row flex-wrap justify-between text-sm px-4 ">
+      <div class="left my-2">
+        <div class="language pr-4  hover:underline hover:text-black text-left">🌍 English (India)</div>
+      </div>
+      <div class="right  flex flex-row flex-wrap my-2">
+        <div class="contact-microsoft pr-4 hover:underline hover:text-black">Contact Microsoft</div>
+          <div class="privacy pr-4 hover:underline hover:text-black">Privacy</div>
+          <div class="terms-of-use pr-4 hover:underline hover:text-black">Terms of use</div>
+          <div class="trademarks pr-4 hover:underline hover:text-black">Trademarks</div>
+          <div class="about-our-ads pr-4 hover:underline hover:text-black">About our ads</div>
+          <div class="microsoft-2022 pr-4 hover:underline hover:text-black text-right">©️ Microsoft 2022</div>
       </div>
     </div>
   </footer>
